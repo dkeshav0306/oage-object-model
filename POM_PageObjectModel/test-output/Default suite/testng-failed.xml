@@ -6,6 +6,7 @@
       <class name="test.Logintest">
         <methods>
           <include name="verifyLoginWithCorrectCredentials"/>
+          <include name="verifyaaa"/>
           <include name="logOutUser"/>
           <include name="pageObjects"/>
           <include name="initBrowser"/>
