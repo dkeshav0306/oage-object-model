@@ -2,7 +2,8 @@ package test;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -17,8 +18,8 @@ import mainjava.PIMPage;
 public class BaseTest extends BaseClass {
 	@BeforeSuite
 	public void initBrowser() {
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		WebDriverManager.edgedriver().setup();
+		driver = new EdgeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(5,TimeUnit.SECONDS);

@@ -5,15 +5,11 @@
     <classes>
       <class name="test.Logintest">
         <methods>
-          <include name="verifyLoginWithCorrectCredentials"/>
-          <include name="verifyaaa"/>
           <include name="logOutUser"/>
           <include name="pageObjects"/>
           <include name="initBrowser"/>
-          <include name="verifyBuildTitleName"/>
-          <include name="verifyTitleOfLoginPage"/>
           <include name="logoutUser"/>
-          <include name="verifyCurrentUrlOfPage"/>
+          <include name="verifyaaaAA"/>
         </methods>
       </class> <!-- test.Logintest -->
     </classes>
